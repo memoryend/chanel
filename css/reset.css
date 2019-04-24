@@ -1,0 +1,23 @@
+@charset "utf-8";
+/*reset*/
+*{margin: 0;padding: 0; box-sizing:border-box;}
+h1,h2,h3,h4,h5,h6,th{font-weight: normal; font-size: 100%;}
+li{list-style: none;}
+a{text-decoration: none; color: inherit;}
+img{border: none;vertical-align: middle;}
+strong{font-weight: normal;}
+.cf:after{content:"";display: block;clear: both;}
+.cb{clear: both;}
+.fl{float: left;}
+.fr{float: right;}
+.tal{text-align: left !important;}
+.tac{text-align: center !important;}
+.tar{text-align: right !important;}
+fieldset{border: none;}
+legend, .blind{position: absolute; left: -9999999px;}
+input,select,button,label{vertical-align: middle;}
+address{font-style: normal;}
+button,input[type="button"]{cursor:pointer;}
+caption{text-indent: -99999px;height: 0;overflow: hidden; font-size: 0;}
+table{width: 100%; border-collapse: collapse;}
+th{text-align: left;}

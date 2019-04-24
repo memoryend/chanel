@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+ <script type="text/javascript">
+    $(document).ready(function(){
+		  </script>
+		<script>
+		$('.center').slick({
+		  centerMode: true,
+		  centerPadding: '60px',
+		  slidesToShow: 3,
+		  responsive: [
+			 {
+				breakpoint: 768,
+				settings: {
+				  arrows: false,
+				  centerMode: true,
+				  centerPadding: '40px',
+				  slidesToShow: 3
+				}
+			 },
+			 {
+				breakpoint: 480,
+				settings: {
+				  arrows: false,
+				  centerMode: true,
+				  centerPadding: '40px',
+				  slidesToShow: 1
+				}
+			 }
+		  ]
+		});
+    });
+</script>
+ </head>
+ <body>
+	<div class="wrap">
+		<ul class="ul-wrap">
+			<li>
+				<img src="main-season-1.png" alt="">
+				<p>내용1</p>
+			</li>
+			<li>
+				<img src="main-season-2.png" alt="">
+				<p>내용2</p>
+			</li>
+			<li>
+				<img src="main-season-3.png" alt="">
+				<p>내용3</p>
+			</li>
+			<li>
+				<img src="main-season-4.png" alt="">
+				<p>내용4</p>
+			</li>
+			<li>
+				<img src="main-season-5.png" alt="">
+				<p>내용5</p>
+			</li>
+		</ul>
+	</div>
+ </body>
+</html>

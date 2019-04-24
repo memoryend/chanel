@@ -1,0 +1,20 @@
+@charset "utf-8";
+#container{background: url(../images/member/bg-chanel-1.jpg) 0 0 no-repeat;padding-top: 50px;padding-bottom: 50px;}
+#content{width: 542px;height: 810px;margin: 0 auto;background-color: #fff;border: 2px solid #4e4e4e;}
+#content h3{padding-top: 50px;font-size: 22px;font-weight: bold;padding-left: 50px;}
+#content h3 + p{font-size: 13px;padding-left: 50px;margin-bottom: 40px;padding-top: 3px;}
+
+.frm-inp-1{width: 120px;height: 25px;margin: 10px 0;}
+.frm-inp-2{width: 100px;height: 25px;margin: 10px 0;}
+.frm-inp-3{width: 40px;height: 25px;margin: 10px 0;margin-left: 20px;}
+.frm-inp-4{width: 50px;height: 25px;margin: 10px 0;}
+.frm-inp-5{width: 68px;height: 25px;margin: 10px 0;}
+.frm-inp-6{width: 350px;height: 25px;margin: 10px 0;}
+
+.mb-wrap{padding-left: 50px;font-size: 14px;overflow: hidden;}
+.mb-wrap > p > a{margin-left: 10px;}
+
+.required-guide{font-size: 12px;color: #828282;padding-left: 50px;}
+
+.check-box-1{margin-left: 10px;}
+.check-box-2{margin-top: 40px;margin-left: 160px;}

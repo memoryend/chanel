@@ -1,0 +1,71 @@
+@charset "utf-8";
+.bx-wrapper{border: none;box-shadow:none;}
+#container-wrap{width: 1100px;margin: 0 auto;}
+#container-wrap img{margin: 0 auto;}
+.main-best-inner-wrap{width: 275px;}
+/* .main-visual-wrap li a{display: inline-block;width: 1920px;} */
+/* .main-visual-wrap .bx-viewport {width: 1920px !important;margin: 0 auto !important;} */
+/* .main-visual-wrap li a{width: 100% !important;position: static !important;}
+.main-visual-wrap ul {position: relative;}
+ */
+.main-visual-wrap .main-visual > li p>a{display: block;text-indent: -99999px; width: 123px;height: 43px;background: url(../images/main/main-visual-1-1.png) 0 0 no-repeat;position: absolute; top: 45.79124579124579%;/*272px;*/right: 27.08333333333333%;/*520px;*/ }
+.main-visual-wrap .main-visual > li p>a:hover{opacity: 0.8;/* box-shadow: 0 0 3px #fff; */}
+.main-visual-wrap .main-visual > .view-more-2 p>a{background: url(../images/main/main-visual-2-1.png) 0 0 no-repeat;top:46.8013468013468%; /*278px;*/ left:20.625%; /*396px;*/ }
+.main-visual-wrap .main-visual > .view-more-3 p>a{background: url(../images/main/main-visual-3-1.png) 0 0 no-repeat;top: 59.25925925925926%;/* 352px; */right: 27.03125%;/* 519px; */}
+.main-visual-wrap .bx-wrapper .bx-controls-direction  a.bx-prev{width: 41px;height: 77px;background: url(../images/main/main-visual-prev.png) 0 0 no-repeat;margin-left: 90px;}
+.main-visual-wrap .bx-wrapper .bx-controls-direction  a.bx-next{width: 41px;height: 77px;background: url(../images/main/main-visual-next.png) 0 0 no-repeat;margin-right: 90px;}
+.main-visual-wrap .bx-wrapper .bx-pager.bx-default-pager {padding: 0;}
+.main-visual-wrap .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{bottom: 36px;}
+.main-visual-wrap .bx-wrapper .bx-pager.bx-default-pager a,.bx-wrapper .bx-pager.bx-default-pager a:hover{background-color: #901f21;margin-right: 15px; margin-left: 0;}
+.main-visual-wrap .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus{background-color: #fffdf4;}
+#content-wrap{width: 1100px;margin: 0 auto;position: relative;margin-bottom: 70px;}
+#content-wrap h3{font-size: 18px; font-weight: bold;margin-bottom: 70px; text-align: center;}
+#content-wrap h3:before,#content-wrap h3:after{content:""; display: inline-block; width: 125px;height: 4px;margin-bottom: 3px;background: url(../images/main/title-left-line.png) 0 0 no-repeat;}
+#content-wrap h3:before{margin-right: 35px;}
+#content-wrap h3:after{background: url(../images/main/title-right-line.png) 0 0 no-repeat;margin-left: 35px;}
+.content-1 *{padding: 0;box-sizing:content-box;}
+.main-best{text-align: center;}
+.main-best li a+p{font-size: 12px; font-weight: bold;margin-bottom: 10px;margin-top: 20px;}
+.main-best li a+p+p{margin-bottom: 20px;}
+.main-best li{font-size: 10px;}
+.main-best li img{margin-bottom: 20px;}
+.content-1 li img{transform:scale(0.9);}
+.content-1 li img:hover{transform:scale(1.0);}
+.content-1 .bx-viewport{height: 340px !important; }
+.content-1 .bx-controls.bx-has-controls-direction a{margin-top: -70px;}
+.content-1 .bx-wrapper .bx-prev{width: 29px;height: 54px;background: url(../images/main/main-1-prev.png) 0 0 no-repeat;}
+.content-1 .bx-wrapper .bx-next{width: 29px;height: 54px;background: url(../images/main/main-1-next.png) 0 0 no-repeat;right: -4px;}
+.content-2{margin-bottom: 70px;}
+.content-2 ul{overflow: hidden; }
+.content-2 ul li:first-child{margin-left: 0;}
+.main-season-common{background: url(../images/main/main-season-1.png) 0 0 no-repeat;width: 259px;height: 290px;float: left;margin-left: 21px;padding: 87px 42px;}
+.main-season-common:hover,.main-season-common:focus{background: url(../images/main/main-season-1-hf.png) 0 0 no-repeat;}
+.main-season-2{background: url(../images/main/main-season-2.png) 0 0 no-repeat;}
+.main-season-2:hover,.main-season-2:focus{background: url(../images/main/main-season-2-hf.png) 0 0 no-repeat;}
+.main-season-3{background: url(../images/main/main-season-3.png) 0 0 no-repeat;}
+.main-season-3:hover,.main-season-3:focus{background: url(../images/main/main-season-3-hf.png) 0 0 no-repeat;}
+.main-season-4{background: url(../images/main/main-season-4.png) 0 0 no-repeat;}
+.main-season-4:hover,.main-season-4:focus{background: url(../images/main/main-season-4-hf.png) 0 0 no-repeat;}
+.main-season-common:hover a,.main-season-common:focus a{display: block;}
+.main-season-common a{display: block; text-indent: -9999px; width: 176px;height: 46px; display: none;}
+.main-season-common p:first-child a{background: url(../images/main/main-season-1-1.png) 0 0 no-repeat;margin-bottom: 17px;}
+.main-season-common p:first-child a:hover,.main-season-common p:first-child a:focus{background: url(../images/main/main-season-1-1-hf.png) 0 0 no-repeat;}
+.main-season-2 p:first-child a{background: url(../images/main/main-season-1-2.png) 0 0 no-repeat;margin-bottom: 17px;}
+.main-season-2 p:first-child a:hover,.main-season-common p:first-child a:focus{background: url(../images/main/main-season-1-2-hf.png) 0 0 no-repeat;}
+.main-season-3 p:first-child a{background: url(../images/main/main-season-1-3.png) 0 0 no-repeat;margin-bottom: 17px;}
+.main-season-3 p:first-child a:hover,.main-season-common p:first-child a:focus{background: url(../images/main/main-season-1-3-hf.png) 0 0 no-repeat;}
+.main-season-4 p:first-child a{background: url(../images/main/main-season-1-4.png) 0 0 no-repeat;margin-bottom: 17px;}
+.main-season-4 p:first-child a:hover,.main-season-common p:first-child a:focus{background: url(../images/main/main-season-1-4-hf.png) 0 0 no-repeat;}
+.main-season-common p:last-child a{background: url(../images/main/main-season-common.png) 0 0 no-repeat;}
+.main-season-common p:last-child a:hover,.main-season-common p:last-child a:focus{background: url(../images/main/main-season-common-hf.png) 0 0 no-repeat;}
+.content-3-1 >p{width: 1100px; height: 327px; background: #000 url(../images/main/main-3-1.png) 0 0 no-repeat;margin-bottom: 70px;    box-shadow: 0 0 5px #ccc;}
+.content-3-1 >p>a{display: block;width: 395px;height: 249px; font-size: 6em;color: #fff;line-height: 87px;float: right;margin-top: 37px;font-weight: bold;}
+.content-3-1 >p>a:hover{color: #fdfbf4;text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 5Px #fff, 0 0 10px #322f15, 0 0 15px #322f15, 0 0 20px #322f15, 0 0 30px #322f15, 0 0 40px #322f15;}
+.content-3-2 h4, .content-3-2 p{display: none;}
+.content-3-2 h4 + p +a> img{display: inline-block; width: 397px;height: 326px;background: url(../images/main/main-3-2-1-bg-5.jpg) 0 bottom fixed no-repeat;}
+.content-3-2 h4 + p +a +img{padding-left: 26px;}
+
+/* .christmas-banner */ 
+#christmas-banner{position: fixed;top: 200px;right: 5%;z-index: 2;/* left: 50%; */ /* margin-left: 610px; */}
+#christmas-banner a:last-child{display: block;position: relative;top: -185px;left: 135px;width: 13px;height: 13px;text-indent: -9999px;background: url(../images/main/christmas-banner-close.png) 0 0 no-repeat;}
+#christmas-banner:target a{display: none;}
